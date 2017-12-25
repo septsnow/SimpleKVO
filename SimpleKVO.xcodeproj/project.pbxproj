@@ -13,6 +13,9 @@
 		05D322341FEFF0DD00A8D460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D322331FEFF0DD00A8D460 /* Assets.xcassets */; };
 		05D322371FEFF0DD00A8D460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D322351FEFF0DD00A8D460 /* LaunchScreen.storyboard */; };
 		05D3223A1FEFF0DD00A8D460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D322391FEFF0DD00A8D460 /* main.m */; };
+		05D322421FEFF0F800A8D460 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D322411FEFF0F800A8D460 /* NSObject+KVO.m */; };
+		05D322481FF128B200A8D460 /* Nursy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D322471FF128B200A8D460 /* Nursy.m */; };
+		05D3224B1FF128BB00A8D460 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D3224A1FF128BB00A8D460 /* Patient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		05D322361FEFF0DD00A8D460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05D322381FEFF0DD00A8D460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D322391FEFF0DD00A8D460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05D322401FEFF0F800A8D460 /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		05D322411FEFF0F800A8D460 /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		05D322461FF128B200A8D460 /* Nursy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nursy.h; sourceTree = "<group>"; };
+		05D322471FF128B200A8D460 /* Nursy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nursy.m; sourceTree = "<group>"; };
+		05D322491FF128BB00A8D460 /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		05D3224A1FF128BB00A8D460 /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				05D3222B1FEFF0DD00A8D460 /* AppDelegate.m */,
 				05D3222D1FEFF0DD00A8D460 /* ViewController.h */,
 				05D3222E1FEFF0DD00A8D460 /* ViewController.m */,
+				05D322401FEFF0F800A8D460 /* NSObject+KVO.h */,
+				05D322411FEFF0F800A8D460 /* NSObject+KVO.m */,
+				05D322491FF128BB00A8D460 /* Patient.h */,
+				05D3224A1FF128BB00A8D460 /* Patient.m */,
+				05D322461FF128B200A8D460 /* Nursy.h */,
+				05D322471FF128B200A8D460 /* Nursy.m */,
 				05D322301FEFF0DD00A8D460 /* Main.storyboard */,
 				05D322331FEFF0DD00A8D460 /* Assets.xcassets */,
 				05D322351FEFF0DD00A8D460 /* LaunchScreen.storyboard */,
@@ -142,7 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D322481FF128B200A8D460 /* Nursy.m in Sources */,
+				05D322421FEFF0F800A8D460 /* NSObject+KVO.m in Sources */,
 				05D3222F1FEFF0DD00A8D460 /* ViewController.m in Sources */,
+				05D3224B1FF128BB00A8D460 /* Patient.m in Sources */,
 				05D3223A1FEFF0DD00A8D460 /* main.m in Sources */,
 				05D3222C1FEFF0DD00A8D460 /* AppDelegate.m in Sources */,
 			);
